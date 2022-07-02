@@ -13,7 +13,7 @@ Write a regex fccRegex to match freeCodeCamp, no matter its case. Your regex sho
 */
 
 let myString = "freeCodeCamp";
-let fccRegex = /change/; // Change this line
+let fccRegex = /freecodecamp/i; // Change this line
 let result = fccRegex.test(myString);
 
 console.log(result)

@@ -18,7 +18,7 @@ Complete the regex unRegex so that it matches the strings run, sun, fun, pun, nu
 */
 
 let exampleStr = "Let's have fun with regular expressions!";
-let unRegex = /change/; // Change this line
+let unRegex = /un./; // Change this line
 let result = unRegex.test(exampleStr);
 
 console.log(result)

@@ -24,8 +24,10 @@ Use capture groups in reRegex to match a string that consists of only the same n
 */
 
 let repeatNum = "42 42 42";
-let reRegex = /change/; // Change this line
+let reRegex = /^(\d+)\s\1\s\1$/; // Change this line
 let result = reRegex.test(repeatNum);
 
 console.log(result)
 // document.getElementById("demo").innerHTML = "";
+
+// see explanation of solution (hint)

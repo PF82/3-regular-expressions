@@ -21,9 +21,11 @@ sure you are utilizing capture groups in the replacement string using the dollar
 */
 
 let str = "one two three";
-let fixRegex = /change/; // Change this line
+let fixRegex = /(\w+)\s(\w+)\s(\w+)/; // Change this line
 let replaceText = ""; // Change this line
 let result = str.replace(fixRegex, replaceText);
 
 console.log(result)
 // document.getElementById("demo").innerHTML = "";
+
+// see explanation of solution (hint)

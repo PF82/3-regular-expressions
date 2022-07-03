@@ -9,7 +9,7 @@ Note: The String.prototype.trim() method would work here, but you'll need to com
 */
 
 let hello = "   Hello, World!  ";
-let wsRegex = /change/; // Change this line
+let wsRegex = /^\s+|\s+$/g; // Change this line
 let result = hello; // Change this line
 
 console.log()

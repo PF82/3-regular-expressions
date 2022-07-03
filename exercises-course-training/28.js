@@ -19,7 +19,7 @@ Change the regex favRegex to match both the American English (favorite) and the 
 */
 
 let favWord = "favorite";
-let favRegex = /change/; // Change this line
+let favRegex = /favou?rite/; // Change this line
 let result = favRegex.test(favWord);
 
 console.log(result)

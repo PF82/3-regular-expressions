@@ -13,8 +13,8 @@ Create a single regex that matches all characters that are not a number or a vow
 */
 
 let quoteSample = "3 blind mice.";
-let myRegex = /change/; // Change this line
-let result = myRegex; // Change this line
+let myRegex = /[^aeiou^0-9]/gi; // Change this line
+let result = quoteSample.match(myRegex); // Change this line
 
 console.log(result)
 // document.getElementById("demo").innerHTML = "";

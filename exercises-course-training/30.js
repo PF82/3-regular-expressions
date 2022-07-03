@@ -19,7 +19,7 @@ depending on whether the regex matches.
 */
 
 let myString = "Eleanor Roosevelt";
-let myRegex = /False/; // Change this line
+let myRegex = /(Franklin|Eleonor).*Roosevelt/i; // Change this line
 let result = false; // Change this line
 // After passing the challenge experiment with myString and see how the grouping works
 

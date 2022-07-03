@@ -14,7 +14,7 @@ Change the regex countNonWhiteSpace to look for multiple non-whitespace characte
 */
 
 let sample = "Whitespace is important in separating words";
-let countNonWhiteSpace = /change/; // Change this line
+let countNonWhiteSpace = /\S/g; // Change this line
 let result = sample.match(countNonWhiteSpace);
 
 console.log(result)

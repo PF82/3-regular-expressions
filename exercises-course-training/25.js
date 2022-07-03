@@ -19,7 +19,7 @@ Change the regex ohRegex to match the entire phrase Oh no only when it has 3 to 
 */
 
 let ohStr = "Ohhh no";
-let ohRegex = /change/; // Change this line
+let ohRegex = /Oh{3,6}\sno/; // Change this line
 let result = ohRegex.test(ohStr);
 
 console.log(result)

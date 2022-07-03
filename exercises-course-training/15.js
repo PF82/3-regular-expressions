@@ -21,7 +21,7 @@ But it does not find matches in the following strings since there are no letter 
 Write a greedy regex that finds one or more criminals within a group of other people. A criminal is represented by the capital letter C.
 */
 
-let reCriminals = /./; // Change this line
+let reCriminals = /C+/; // Change this line
 
 console.log(reCriminals)
 // document.getElementById("demo").innerHTML = "";
